@@ -1,0 +1,2002 @@
+[
+    {
+        "group":  "A",
+        "team1":  "THPT Vinschool Times City",
+        "team2":  "THPT Đại Mỗ",
+        "score1":  0,
+        "score2":  1,
+        "venue":  "Sân 5",
+        "date":  "2026-10-11",
+        "time":  "08:00"
+    },
+    {
+        "group":  "A",
+        "team1":  "THPT Vinschool Times City",
+        "team2":  "THPT Nguyễn Trãi Thường Tín",
+        "score1":  2,
+        "score2":  4,
+        "venue":  "Sân 5",
+        "date":  "2026-11-01",
+        "time":  "14:30"
+    },
+    {
+        "group":  "A",
+        "team1":  "THPT Vinschool Times City",
+        "team2":  "THPT Quốc Oai",
+        "score1":  0,
+        "score2":  6,
+        "venue":  "Sân 1",
+        "date":  "2026-10-25",
+        "time":  "09:30"
+    },
+    {
+        "group":  "A",
+        "team1":  "THPT Đại Mỗ",
+        "team2":  "THPT Nguyễn Trãi Thường Tín",
+        "score1":  1,
+        "score2":  3,
+        "venue":  "Sân 2",
+        "date":  "2026-10-25",
+        "time":  "09:30"
+    },
+    {
+        "group":  "A",
+        "team1":  "THPT Đại Mỗ",
+        "team2":  "THPT Quốc Oai",
+        "score1":  4,
+        "score2":  3,
+        "venue":  "Sân 1",
+        "date":  "2026-11-01",
+        "time":  "15:30"
+    },
+    {
+        "group":  "A",
+        "team1":  "THPT Nguyễn Trãi Thường Tín",
+        "team2":  "THPT Quốc Oai",
+        "score1":  2,
+        "score2":  6,
+        "venue":  "Sân 1",
+        "date":  "2026-10-11",
+        "time":  "09:00"
+    },
+    {
+        "group":  "B",
+        "team1":  "THPT Lê Văn Thiêm",
+        "team2":  "THPT Xuân Phương",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 2",
+        "date":  "2026-10-18",
+        "time":  "09:00"
+    },
+    {
+        "group":  "B",
+        "team1":  "THPT Lê Văn Thiêm",
+        "team2":  "THPT Einstein",
+        "score1":  5,
+        "score2":  0,
+        "venue":  "Sân 2",
+        "date":  "2026-11-01",
+        "time":  "15:30"
+    },
+    {
+        "group":  "B",
+        "team1":  "THPT Lê Văn Thiêm",
+        "team2":  "THPT Nguyễn Trãi Ba Đình",
+        "score1":  2,
+        "score2":  0,
+        "venue":  "Sân 4",
+        "date":  "2026-10-25",
+        "time":  "14:30"
+    },
+    {
+        "group":  "B",
+        "team1":  "THPT Xuân Phương",
+        "team2":  "THPT Einstein",
+        "score1":  5,
+        "score2":  0,
+        "venue":  "Sân 5",
+        "date":  "2026-10-25",
+        "time":  "14:30"
+    },
+    {
+        "group":  "B",
+        "team1":  "THPT Xuân Phương",
+        "team2":  "THPT Nguyễn Trãi Ba Đình",
+        "score1":  3,
+        "score2":  0,
+        "venue":  "Sân 3",
+        "date":  "2026-11-01",
+        "time":  "15:30"
+    },
+    {
+        "group":  "B",
+        "team1":  "THPT Einstein",
+        "team2":  "THPT Nguyễn Trãi Ba Đình",
+        "score1":  0,
+        "score2":  2,
+        "venue":  "Sân 3",
+        "date":  "2026-10-18",
+        "time":  "09:00"
+    },
+    {
+        "group":  "C",
+        "team1":  "THPT Hoài Đức C",
+        "team2":  "THPT Khương Hạ",
+        "score1":  3,
+        "score2":  1,
+        "venue":  "Sân 2",
+        "date":  "2026-10-11",
+        "time":  "09:00"
+    },
+    {
+        "group":  "C",
+        "team1":  "THPT Hoài Đức C",
+        "team2":  "THPT Việt Nam Ba Lan",
+        "score1":  3,
+        "score2":  1,
+        "venue":  "Sân 5",
+        "date":  "2026-10-25",
+        "time":  "09:30"
+    },
+    {
+        "group":  "C",
+        "team1":  "THPT Hoài Đức C",
+        "team2":  "THPT Xuân Đỉnh",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 3",
+        "date":  "2026-11-04",
+        "time":  "13:30"
+    },
+    {
+        "group":  "C",
+        "team1":  "THPT Khương Hạ",
+        "team2":  "THPT Việt Nam Ba Lan",
+        "score1":  2,
+        "score2":  0,
+        "venue":  "Sân 2",
+        "date":  "2026-10-28",
+        "time":  "14:30"
+    },
+    {
+        "group":  "C",
+        "team1":  "THPT Khương Hạ",
+        "team2":  "THPT Xuân Đỉnh",
+        "score1":  0,
+        "score2":  0,
+        "venue":  "Sân 5",
+        "date":  "2026-11-01",
+        "time":  "15:30"
+    },
+    {
+        "group":  "C",
+        "team1":  "THPT Việt Nam Ba Lan",
+        "team2":  "THPT Xuân Đỉnh",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 3",
+        "date":  "2026-10-11",
+        "time":  "09:00"
+    },
+    {
+        "group":  "D",
+        "team1":  "THPT Tự Lập",
+        "team2":  "THPT Hoàng Mai",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 4",
+        "date":  "2026-10-18",
+        "time":  "09:00"
+    },
+    {
+        "group":  "D",
+        "team1":  "THPT Lê Quý Đôn Mỹ Đình",
+        "team2":  "THPT Đông Kinh",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-10-18",
+        "time":  "09:00"
+    },
+    {
+        "group":  "D",
+        "team1":  "THPT Tự Lập",
+        "team2":  "THPT Đông Kinh",
+        "score1":  2,
+        "score2":  0,
+        "venue":  "Sân 2",
+        "date":  "2026-10-25",
+        "time":  "10:30"
+    },
+    {
+        "group":  "D",
+        "team1":  "THPT Lê Quý Đôn Mỹ Đình",
+        "team2":  "THPT Hoàng Mai",
+        "score1":  2,
+        "score2":  2,
+        "venue":  "Sân 1",
+        "date":  "2026-10-28",
+        "time":  "15:30"
+    },
+    {
+        "group":  "D",
+        "team1":  "THPT Tự Lập",
+        "team2":  "THPT Lê Quý Đôn Mỹ Đình",
+        "score1":  2,
+        "score2":  2,
+        "venue":  "Sân 2",
+        "date":  "2026-11-01",
+        "time":  "08:00"
+    },
+    {
+        "group":  "D",
+        "team1":  "THPT Đông Kinh",
+        "team2":  "THPT Hoàng Mai",
+        "score1":  1,
+        "score2":  3,
+        "venue":  "Sân 5",
+        "date":  "2026-11-01",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Đ",
+        "team1":  "THPT Phạm Văn Đồng",
+        "team2":  "THPT Wellspring",
+        "score1":  0,
+        "score2":  2,
+        "venue":  "Sân 4",
+        "date":  "2026-10-11",
+        "time":  "09:00"
+    },
+    {
+        "group":  "Đ",
+        "team1":  "THPT Phạm Văn Đồng",
+        "team2":  "THPT Huỳnh Thúc Kháng",
+        "score1":  1,
+        "score2":  2,
+        "venue":  "Sân 4",
+        "date":  "2026-11-01",
+        "time":  "15:30"
+    },
+    {
+        "group":  "Đ",
+        "team1":  "THPT Phạm Văn Đồng",
+        "team2":  "THPT Trần Phú Hoàn Kiếm",
+        "score1":  3,
+        "score2":  1,
+        "venue":  "Sân 5",
+        "date":  "2026-10-28",
+        "time":  "14:30"
+    },
+    {
+        "group":  "Đ",
+        "team1":  "THPT Wellspring",
+        "team2":  "THPT Huỳnh Thúc Kháng",
+        "score1":  3,
+        "score2":  1,
+        "venue":  "Sân 5",
+        "date":  "2026-10-25",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Đ",
+        "team1":  "THPT Wellspring",
+        "team2":  "THPT Trần Phú Hoàn Kiếm",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 4",
+        "date":  "2026-11-04",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Đ",
+        "team1":  "THPT Huỳnh Thúc Kháng",
+        "team2":  "THPT Trần Phú Hoàn Kiếm",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 5",
+        "date":  "2026-10-11",
+        "time":  "09:00"
+    },
+    {
+        "group":  "E",
+        "team1":  "THPT Nguyễn Văn Cừ",
+        "team2":  "THPT Việt Úc Hà Nội",
+        "score1":  5,
+        "score2":  0,
+        "venue":  "Sân 2",
+        "date":  "2026-10-18",
+        "time":  "10:00"
+    },
+    {
+        "group":  "E",
+        "team1":  "THPT Nguyễn Văn Cừ",
+        "team2":  "THPT Ngô Gia Tự Hà Đông",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 4",
+        "date":  "2026-11-11",
+        "time":  "14:30"
+    },
+    {
+        "group":  "E",
+        "team1":  "THPT Nguyễn Văn Cừ",
+        "team2":  "THPT Lê Quý Đôn Hà Đông",
+        "score1":  0,
+        "score2":  0,
+        "venue":  "Sân 2",
+        "date":  "2026-10-25",
+        "time":  "13:30"
+    },
+    {
+        "group":  "E",
+        "team1":  "THPT Việt Úc Hà Nội",
+        "team2":  "THPT Ngô Gia Tự Hà Đông",
+        "score1":  0,
+        "score2":  2,
+        "venue":  "Sân 4",
+        "date":  "2026-10-28",
+        "time":  "14:30"
+    },
+    {
+        "group":  "E",
+        "team1":  "THPT Việt Úc Hà Nội",
+        "team2":  "THPT Lê Quý Đôn Hà Đông",
+        "score1":  0,
+        "score2":  3,
+        "venue":  "Sân 2",
+        "date":  "2026-11-01",
+        "time":  "10:00"
+    },
+    {
+        "group":  "E",
+        "team1":  "THPT Ngô Gia Tự Hà Đông",
+        "team2":  "THPT Lê Quý Đôn Hà Đông",
+        "score1":  1,
+        "score2":  2,
+        "venue":  "Sân 1",
+        "date":  "2026-10-21",
+        "time":  "13:30"
+    },
+    {
+        "group":  "F",
+        "team1":  "THPT Nguyễn Quốc Trinh",
+        "team2":  "THPT Cầu Giấy",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 1",
+        "date":  "2026-10-11",
+        "time":  "10:00"
+    },
+    {
+        "group":  "F",
+        "team1":  "THPT Nguyễn Quốc Trinh",
+        "team2":  "THPT Việt Đức",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 2",
+        "date":  "2026-11-04",
+        "time":  "14:30"
+    },
+    {
+        "group":  "F",
+        "team1":  "THPT Nguyễn Quốc Trinh",
+        "team2":  "THPT Nhân Chính",
+        "score1":  3,
+        "score2":  1,
+        "venue":  "Sân 3",
+        "date":  "2026-10-25",
+        "time":  "13:30"
+    },
+    {
+        "group":  "F",
+        "team1":  "THPT Cầu Giấy",
+        "team2":  "THPT Việt Đức",
+        "score1":  1,
+        "score2":  2,
+        "venue":  "Sân 4",
+        "date":  "2026-10-25",
+        "time":  "13:30"
+    },
+    {
+        "group":  "F",
+        "team1":  "THPT Cầu Giấy",
+        "team2":  "THPT Nhân Chính",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 3",
+        "date":  "2026-11-04",
+        "time":  "14:30"
+    },
+    {
+        "group":  "F",
+        "team1":  "THPT Việt Đức",
+        "team2":  "THPT Nhân Chính",
+        "score1":  2,
+        "score2":  4,
+        "venue":  "Sân 2",
+        "date":  "2026-10-11",
+        "time":  "10:00"
+    },
+    {
+        "group":  "G",
+        "team1":  "THPT Phú Xuyên A",
+        "team2":  "THPT Trí Đức",
+        "score1":  0,
+        "score2":  0,
+        "venue":  "Sân 3",
+        "date":  "2026-10-18",
+        "time":  "10:00"
+    },
+    {
+        "group":  "G",
+        "team1":  "THPT Phú Xuyên A",
+        "team2":  "THPT Đồng Quan",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 4",
+        "date":  "2026-11-04",
+        "time":  "14:30"
+    },
+    {
+        "group":  "G",
+        "team1":  "THPT Phú Xuyên A",
+        "team2":  "THPT Lê Quý Đôn Đống Đa",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 5",
+        "date":  "2026-10-25",
+        "time":  "10:30"
+    },
+    {
+        "group":  "G",
+        "team1":  "THPT Trí Đức",
+        "team2":  "THPT Đồng Quan",
+        "score1":  0,
+        "score2":  6,
+        "venue":  "Sân 1",
+        "date":  "2026-10-25",
+        "time":  "14:30"
+    },
+    {
+        "group":  "G",
+        "team1":  "THPT Trí Đức",
+        "team2":  "THPT Lê Quý Đôn Đống Đa",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-11-04",
+        "time":  "14:30"
+    },
+    {
+        "group":  "G",
+        "team1":  "THPT Đồng Quan",
+        "team2":  "THPT Lê Quý Đôn Đống Đa",
+        "score1":  2,
+        "score2":  0,
+        "venue":  "Sân 4",
+        "date":  "2026-10-18",
+        "time":  "10:00"
+    },
+    {
+        "group":  "H",
+        "team1":  "THPT Marie Curie Mỹ Đình",
+        "team2":  "THPT Lương Thế Vinh",
+        "score1":  0,
+        "score2":  1,
+        "venue":  "Sân 3",
+        "date":  "2026-10-11",
+        "time":  "10:00"
+    },
+    {
+        "group":  "H",
+        "team1":  "THPT Marie Curie Mỹ Đình",
+        "team2":  "THPT Trần Quốc Tuấn",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 1",
+        "date":  "2026-11-04",
+        "time":  "15:30"
+    },
+    {
+        "group":  "H",
+        "team1":  "THPT Marie Curie Mỹ Đình",
+        "team2":  "THPT Thượng Cát",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 2",
+        "date":  "2026-10-25",
+        "time":  "14:30"
+    },
+    {
+        "group":  "H",
+        "team1":  "THPT Lương Thế Vinh",
+        "team2":  "THPT Trần Quốc Tuấn",
+        "score1":  0,
+        "score2":  3,
+        "venue":  "Sân 3",
+        "date":  "2026-10-25",
+        "time":  "14:30"
+    },
+    {
+        "group":  "H",
+        "team1":  "THPT Lương Thế Vinh",
+        "team2":  "THPT Thượng Cát",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 2",
+        "date":  "2026-11-04",
+        "time":  "15:30"
+    },
+    {
+        "group":  "H",
+        "team1":  "THPT Trần Quốc Tuấn",
+        "team2":  "THPT Thượng Cát",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 4",
+        "date":  "2026-10-11",
+        "time":  "10:00"
+    },
+    {
+        "group":  "I",
+        "team1":  "THPT Phúc Thọ",
+        "team2":  "THPT Lý Thường Kiệt Việt Hưng",
+        "score1":  0,
+        "score2":  1,
+        "venue":  "Sân 5",
+        "date":  "2026-10-18",
+        "time":  "10:00"
+    },
+    {
+        "group":  "I",
+        "team1":  "THPT Phúc Thọ",
+        "team2":  "THPT Phan Huy Chú Thạch Thất",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 3",
+        "date":  "2026-11-04",
+        "time":  "15:30"
+    },
+    {
+        "group":  "I",
+        "team1":  "THPT Phúc Thọ",
+        "team2":  "THPT Nguyễn Du Thanh Oai",
+        "score1":  0,
+        "score2":  1,
+        "venue":  "Sân 3",
+        "date":  "2026-10-25",
+        "time":  "09:30"
+    },
+    {
+        "group":  "I",
+        "team1":  "THPT Lý Thường Kiệt Việt Hưng",
+        "team2":  "THPT Phan Huy Chú Thạch Thất",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 4",
+        "date":  "2026-10-25",
+        "time":  "09:30"
+    },
+    {
+        "group":  "I",
+        "team1":  "THPT Lý Thường Kiệt Việt Hưng",
+        "team2":  "THPT Nguyễn Du Thanh Oai",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 4",
+        "date":  "2026-11-04",
+        "time":  "15:30"
+    },
+    {
+        "group":  "I",
+        "team1":  "THPT Phan Huy Chú Thạch Thất",
+        "team2":  "THPT Nguyễn Du Thanh Oai",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 1",
+        "date":  "2026-10-18",
+        "time":  "13:30"
+    },
+    {
+        "group":  "J",
+        "team1":  "THPT FPT",
+        "team2":  "THPT Hoàng Cầu",
+        "score1":  2,
+        "score2":  2,
+        "venue":  "Sân 5",
+        "date":  "2026-10-11",
+        "time":  "10:00"
+    },
+    {
+        "group":  "J",
+        "team1":  "THPT FPT",
+        "team2":  "THPT Chuyên Nguyễn Huệ",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-11-04",
+        "time":  "15:30"
+    },
+    {
+        "group":  "J",
+        "team1":  "THPT FPT",
+        "team2":  "THPT Everest",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 1",
+        "date":  "2026-10-25",
+        "time":  "15:30"
+    },
+    {
+        "group":  "J",
+        "team1":  "THPT Hoàng Cầu",
+        "team2":  "THPT Chuyên Nguyễn Huệ",
+        "score1":  0,
+        "score2":  3,
+        "venue":  "Sân 2",
+        "date":  "2026-10-25",
+        "time":  "15:30"
+    },
+    {
+        "group":  "J",
+        "team1":  "THPT Hoàng Cầu",
+        "team2":  "THPT Everest",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 1",
+        "date":  "2026-11-08",
+        "time":  "08:00"
+    },
+    {
+        "group":  "J",
+        "team1":  "THPT Chuyên Nguyễn Huệ",
+        "team2":  "THPT Everest",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 1",
+        "date":  "2026-10-11",
+        "time":  "13:30"
+    },
+    {
+        "group":  "K",
+        "team1":  "THPT Nguyễn Tất Thành Cầu Giấy",
+        "team2":  "THPT Thạch Bàn",
+        "score1":  0,
+        "score2":  5,
+        "venue":  "Sân 2",
+        "date":  "2026-10-18",
+        "time":  "13:30"
+    },
+    {
+        "group":  "K",
+        "team1":  "THPT Nguyễn Tất Thành Cầu Giấy",
+        "team2":  "THPT Alfred Nobel",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 2",
+        "date":  "2026-11-08",
+        "time":  "08:00"
+    },
+    {
+        "group":  "K",
+        "team1":  "THPT Nguyễn Tất Thành Cầu Giấy",
+        "team2":  "THPT Trần Hưng Đạo Thanh Xuân",
+        "score1":  0,
+        "score2":  1,
+        "venue":  "Sân 3",
+        "date":  "2026-10-25",
+        "time":  "15:30"
+    },
+    {
+        "group":  "K",
+        "team1":  "THPT Thạch Bàn",
+        "team2":  "THPT Alfred Nobel",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-11-15",
+        "time":  "08:00"
+    },
+    {
+        "group":  "K",
+        "team1":  "THPT Thạch Bàn",
+        "team2":  "THPT Trần Hưng Đạo Thanh Xuân",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 3",
+        "date":  "2026-11-08",
+        "time":  "08:00"
+    },
+    {
+        "group":  "K",
+        "team1":  "THPT Alfred Nobel",
+        "team2":  "THPT Trần Hưng Đạo Thanh Xuân",
+        "score1":  1,
+        "score2":  5,
+        "venue":  "Sân 3",
+        "date":  "2026-10-18",
+        "time":  "13:30"
+    },
+    {
+        "group":  "L",
+        "team1":  "THPT Lý Thái Tổ",
+        "team2":  "THPT Nguyễn Huệ Nghĩa Đô",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 2",
+        "date":  "2026-10-11",
+        "time":  "13:30"
+    },
+    {
+        "group":  "L",
+        "team1":  "THPT Lý Thái Tổ",
+        "team2":  "THPT Hoàng Long",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 4",
+        "date":  "2026-11-08",
+        "time":  "08:00"
+    },
+    {
+        "group":  "L",
+        "team1":  "THPT Lý Thái Tổ",
+        "team2":  "THPT Galileo",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-11-15",
+        "time":  "09:00"
+    },
+    {
+        "group":  "L",
+        "team1":  "THPT Nguyễn Huệ Nghĩa Đô",
+        "team2":  "THPT Hoàng Long",
+        "score1":  5,
+        "score2":  2,
+        "venue":  "Sân 1",
+        "date":  "2026-10-28",
+        "time":  "13:30"
+    },
+    {
+        "group":  "L",
+        "team1":  "THPT Nguyễn Huệ Nghĩa Đô",
+        "team2":  "THPT Galileo",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-11-08",
+        "time":  "08:00"
+    },
+    {
+        "group":  "L",
+        "team1":  "THPT Hoàng Long",
+        "team2":  "THPT Galileo",
+        "score1":  0,
+        "score2":  1,
+        "venue":  "Sân 3",
+        "date":  "2026-10-11",
+        "time":  "13:30"
+    },
+    {
+        "group":  "M",
+        "team1":  "THPT Phùng Khắc Khoan Kim Liên",
+        "team2":  "THPT Ngọc Hồi",
+        "score1":  2,
+        "score2":  2,
+        "venue":  "Sân 4",
+        "date":  "2026-10-18",
+        "time":  "13:30"
+    },
+    {
+        "group":  "M",
+        "team1":  "THPT Phùng Khắc Khoan Kim Liên",
+        "team2":  "THPT Nguyễn Bỉnh Khiêm",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 1",
+        "date":  "2026-11-08",
+        "time":  "09:00"
+    },
+    {
+        "group":  "M",
+        "team1":  "THPT Phùng Khắc Khoan Kim Liên",
+        "team2":  "THPT Hồ Tùng Mậu",
+        "score1":  4,
+        "score2":  0,
+        "venue":  "Sân 2",
+        "date":  "2026-10-28",
+        "time":  "13:30"
+    },
+    {
+        "group":  "M",
+        "team1":  "THPT Ngọc Hồi",
+        "team2":  "THPT Nguyễn Bỉnh Khiêm",
+        "score1":  0,
+        "score2":  0,
+        "venue":  "Sân 3",
+        "date":  "2026-10-28",
+        "time":  "13:30"
+    },
+    {
+        "group":  "M",
+        "team1":  "THPT Ngọc Hồi",
+        "team2":  "THPT Hồ Tùng Mậu",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 2",
+        "date":  "2026-11-08",
+        "time":  "09:00"
+    },
+    {
+        "group":  "M",
+        "team1":  "THPT Nguyễn Bỉnh Khiêm",
+        "team2":  "THPT Hồ Tùng Mậu",
+        "score1":  8,
+        "score2":  1,
+        "venue":  "Sân 2",
+        "date":  "2026-10-21",
+        "time":  "14:30"
+    },
+    {
+        "group":  "N",
+        "team1":  "THPT Archimedes Đông Anh",
+        "team2":  "THPT Kim Liên",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 4",
+        "date":  "2026-10-11",
+        "time":  "13:30"
+    },
+    {
+        "group":  "N",
+        "team1":  "THPT Archimedes Đông Anh",
+        "team2":  "THPT Dewey Ocean Park",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 3",
+        "date":  "2026-11-08",
+        "time":  "09:00"
+    },
+    {
+        "group":  "N",
+        "team1":  "THPT Archimedes Đông Anh",
+        "team2":  "THPT KHGD",
+        "score1":  2,
+        "score2":  1,
+        "venue":  "Sân 4",
+        "date":  "2026-10-28",
+        "time":  "13:30"
+    },
+    {
+        "group":  "N",
+        "team1":  "THPT Kim Liên",
+        "team2":  "THPT Dewey Ocean Park",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 5",
+        "date":  "2026-10-28",
+        "time":  "13:30"
+    },
+    {
+        "group":  "N",
+        "team1":  "THPT Kim Liên",
+        "team2":  "THPT KHGD",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 4",
+        "date":  "2026-11-08",
+        "time":  "09:00"
+    },
+    {
+        "group":  "N",
+        "team1":  "THPT Dewey Ocean Park",
+        "team2":  "THPT KHGD",
+        "score1":  0,
+        "score2":  2,
+        "venue":  "Sân 5",
+        "date":  "2026-10-11",
+        "time":  "13:30"
+    },
+    {
+        "group":  "O",
+        "team1":  "THPT Vinschool Ocean Park",
+        "team2":  "THPT Ngô Quyền Đông Anh",
+        "score1":  2,
+        "score2":  3,
+        "venue":  "Sân 1",
+        "date":  "2026-10-18",
+        "time":  "14:30"
+    },
+    {
+        "group":  "O",
+        "team1":  "THPT Vinschool Ocean Park",
+        "team2":  "THPT Bắc Lương Sơn",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-11-08",
+        "time":  "09:00"
+    },
+    {
+        "group":  "O",
+        "team1":  "THPT Vinschool Ocean Park",
+        "team2":  "THPT Đoàn Kết Hai Bà Trưng",
+        "score1":  1,
+        "score2":  2,
+        "venue":  "Sân 1",
+        "date":  "2026-10-28",
+        "time":  "14:30"
+    },
+    {
+        "group":  "O",
+        "team1":  "THPT Ngô Quyền Đông Anh",
+        "team2":  "THPT Bắc Lương Sơn",
+        "score1":  0,
+        "score2":  1,
+        "venue":  "Sân 1",
+        "date":  "2026-10-25",
+        "time":  "10:30"
+    },
+    {
+        "group":  "O",
+        "team1":  "THPT Ngô Quyền Đông Anh",
+        "team2":  "THPT Đoàn Kết Hai Bà Trưng",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 1",
+        "date":  "2026-11-08",
+        "time":  "10:00"
+    },
+    {
+        "group":  "O",
+        "team1":  "THPT Bắc Lương Sơn",
+        "team2":  "THPT Đoàn Kết Hai Bà Trưng",
+        "score1":  0,
+        "score2":  2,
+        "venue":  "Sân 2",
+        "date":  "2026-10-18",
+        "time":  "14:30"
+    },
+    {
+        "group":  "Ô",
+        "team1":  "THPT Hoàng Văn Thụ",
+        "team2":  "THPT Việt Hoàng",
+        "score1":  3,
+        "score2":  0,
+        "venue":  "Sân 1",
+        "date":  "2026-10-11",
+        "time":  "14:30"
+    },
+    {
+        "group":  "Ô",
+        "team1":  "THPT Hoàng Văn Thụ",
+        "team2":  "THPT Chuyên KHTN",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 2",
+        "date":  "2026-11-08",
+        "time":  "10:00"
+    },
+    {
+        "group":  "Ô",
+        "team1":  "THPT Hoàng Văn Thụ",
+        "team2":  "THPT Dương Xá",
+        "score1":  2,
+        "score2":  2,
+        "venue":  "Sân 3",
+        "date":  "2026-10-28",
+        "time":  "14:30"
+    },
+    {
+        "group":  "Ô",
+        "team1":  "THPT Việt Hoàng",
+        "team2":  "THPT Chuyên KHTN",
+        "score1":  2,
+        "score2":  1,
+        "venue":  "Sân 1",
+        "date":  "2026-10-25",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Ô",
+        "team1":  "THPT Việt Hoàng",
+        "team2":  "THPT Dương Xá",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 3",
+        "date":  "2026-11-08",
+        "time":  "10:00"
+    },
+    {
+        "group":  "Ô",
+        "team1":  "THPT Chuyên KHTN",
+        "team2":  "THPT Dương Xá",
+        "score1":  0,
+        "score2":  0,
+        "venue":  "Sân 2",
+        "date":  "2026-10-11",
+        "time":  "14:30"
+    },
+    {
+        "group":  "P",
+        "team1":  "THPT Phùng Khắc Khoan Thạch Thất",
+        "team2":  "THPT Dewey Tây Hồ Tây",
+        "score1":  3,
+        "score2":  0,
+        "venue":  "Sân 4",
+        "date":  "2026-10-18",
+        "time":  "14:30"
+    },
+    {
+        "group":  "P",
+        "team1":  "THPT Phùng Khắc Khoan Thạch Thất",
+        "team2":  "THPT IVS Thanh Oai",
+        "score1":  3,
+        "score2":  0,
+        "venue":  "Sân 3",
+        "date":  "2026-10-25",
+        "time":  "10:30"
+    },
+    {
+        "group":  "P",
+        "team1":  "THPT Phùng Khắc Khoan Thạch Thất",
+        "team2":  "THPT Phan Huy Chú Quốc Oai",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 4",
+        "date":  "2026-11-08",
+        "time":  "10:00"
+    },
+    {
+        "group":  "P",
+        "team1":  "THPT Dewey Tây Hồ Tây",
+        "team2":  "THPT IVS Thanh Oai",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-11-08",
+        "time":  "10:00"
+    },
+    {
+        "group":  "P",
+        "team1":  "THPT Dewey Tây Hồ Tây",
+        "team2":  "THPT Phan Huy Chú Quốc Oai",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 4",
+        "date":  "2026-10-25",
+        "time":  "10:30"
+    },
+    {
+        "group":  "P",
+        "team1":  "THPT IVS Thanh Oai",
+        "team2":  "THPT Phan Huy Chú Quốc Oai",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 4",
+        "date":  "2026-11-15",
+        "time":  "08:00"
+    },
+    {
+        "group":  "Q",
+        "team1":  "THPT Nguyễn Gia Thiều",
+        "team2":  "THPT Phúc Lợi",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 3",
+        "date":  "2026-10-11",
+        "time":  "14:30"
+    },
+    {
+        "group":  "Q",
+        "team1":  "THPT Nguyễn Gia Thiều",
+        "team2":  "THPT Thọ Xuân",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 1",
+        "date":  "2026-11-08",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Q",
+        "team1":  "THPT Nguyễn Gia Thiều",
+        "team2":  "THPT Đan Phượng",
+        "score1":  0,
+        "score2":  0,
+        "venue":  "Sân 2",
+        "date":  "2026-10-28",
+        "time":  "15:30"
+    },
+    {
+        "group":  "Q",
+        "team1":  "THPT Phúc Lợi",
+        "team2":  "THPT Thọ Xuân",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 3",
+        "date":  "2026-10-28",
+        "time":  "15:30"
+    },
+    {
+        "group":  "Q",
+        "team1":  "THPT Phúc Lợi",
+        "team2":  "THPT Đan Phượng",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 2",
+        "date":  "2026-11-08",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Q",
+        "team1":  "THPT Thọ Xuân",
+        "team2":  "THPT Đan Phượng",
+        "score1":  0,
+        "score2":  2,
+        "venue":  "Sân 4",
+        "date":  "2026-10-11",
+        "time":  "14:30"
+    },
+    {
+        "group":  "R",
+        "team1":  "THPT Xa La",
+        "team2":  "THPT Lương Văn Can",
+        "score1":  0,
+        "score2":  0,
+        "venue":  "Sân 1",
+        "date":  "2026-10-18",
+        "time":  "15:30"
+    },
+    {
+        "group":  "R",
+        "team1":  "THPT Xa La",
+        "team2":  "THPT Lomonoxop",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 3",
+        "date":  "2026-11-08",
+        "time":  "13:30"
+    },
+    {
+        "group":  "R",
+        "team1":  "THPT Xa La",
+        "team2":  "THPT Olympia",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 5",
+        "date":  "2026-10-28",
+        "time":  "15:30"
+    },
+    {
+        "group":  "R",
+        "team1":  "THPT Lương Văn Can",
+        "team2":  "THPT Lomonoxop",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 4",
+        "date":  "2026-10-28",
+        "time":  "15:30"
+    },
+    {
+        "group":  "R",
+        "team1":  "THPT Lương Văn Can",
+        "team2":  "THPT Olympia",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 4",
+        "date":  "2026-11-08",
+        "time":  "13:30"
+    },
+    {
+        "group":  "R",
+        "team1":  "THPT Lomonoxop",
+        "team2":  "THPT Olympia",
+        "score1":  2,
+        "score2":  2,
+        "venue":  "Sân 3",
+        "date":  "2026-10-21",
+        "time":  "14:30"
+    },
+    {
+        "group":  "S",
+        "team1":  "THPT Phan Bội Châu Hà Đông",
+        "team2":  "THPT Phan Huy Chú Đống Đa",
+        "score1":  3,
+        "score2":  0,
+        "venue":  "Sân 5",
+        "date":  "2026-10-11",
+        "time":  "14:30"
+    },
+    {
+        "group":  "S",
+        "team1":  "THPT Phan Bội Châu Hà Đông",
+        "team2":  "THPT Thanh Oai B",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-11-08",
+        "time":  "13:30"
+    },
+    {
+        "group":  "S",
+        "team1":  "THPT Phan Bội Châu Hà Đông",
+        "team2":  "THPT Trần Nhân Tông",
+        "score1":  2,
+        "score2":  1,
+        "venue":  "Sân 1",
+        "date":  "2026-11-01",
+        "time":  "08:00"
+    },
+    {
+        "group":  "S",
+        "team1":  "THPT Phan Huy Chú Đống Đa",
+        "team2":  "THPT Thanh Oai B",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 1",
+        "date":  "2026-11-04",
+        "time":  "13:30"
+    },
+    {
+        "group":  "S",
+        "team1":  "THPT Phan Huy Chú Đống Đa",
+        "team2":  "THPT Trần Nhân Tông",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 1",
+        "date":  "2026-11-08",
+        "time":  "14:30"
+    },
+    {
+        "group":  "S",
+        "team1":  "THPT Thanh Oai B",
+        "team2":  "THPT Trần Nhân Tông",
+        "score1":  4,
+        "score2":  0,
+        "venue":  "Sân 1",
+        "date":  "2026-10-11",
+        "time":  "15:30"
+    },
+    {
+        "group":  "T",
+        "team1":  "THPT Thực Nghiệm",
+        "team2":  "THPT Tạ Quang Bửu",
+        "score1":  6,
+        "score2":  0,
+        "venue":  "Sân 2",
+        "date":  "2026-10-18",
+        "time":  "15:30"
+    },
+    {
+        "group":  "T",
+        "team1":  "THPT Thực Nghiệm",
+        "team2":  "THPT Phenikaa",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 2",
+        "date":  "2026-11-08",
+        "time":  "14:30"
+    },
+    {
+        "group":  "T",
+        "team1":  "THPT Thực Nghiệm",
+        "team2":  "THPT Đa Trí Tuệ",
+        "score1":  3,
+        "score2":  0,
+        "venue":  "Sân 3",
+        "date":  "2026-11-01",
+        "time":  "08:00"
+    },
+    {
+        "group":  "T",
+        "team1":  "THPT Tạ Quang Bửu",
+        "team2":  "THPT Phenikaa",
+        "score1":  1,
+        "score2":  2,
+        "venue":  "Sân 4",
+        "date":  "2026-11-01",
+        "time":  "08:00"
+    },
+    {
+        "group":  "T",
+        "team1":  "THPT Tạ Quang Bửu",
+        "team2":  "THPT Đa Trí Tuệ",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 3",
+        "date":  "2026-11-08",
+        "time":  "14:30"
+    },
+    {
+        "group":  "T",
+        "team1":  "THPT Phenikaa",
+        "team2":  "THPT Đa Trí Tuệ",
+        "score1":  5,
+        "score2":  1,
+        "venue":  "Sân 3",
+        "date":  "2026-10-18",
+        "time":  "15:30"
+    },
+    {
+        "group":  "U",
+        "team1":  "THPT Vạn Xuân Long Biên",
+        "team2":  "THPT Hòa Bình Phú Diễn",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 2",
+        "date":  "2026-10-11",
+        "time":  "15:30"
+    },
+    {
+        "group":  "U",
+        "team1":  "THPT Vạn Xuân Long Biên",
+        "team2":  "THPT Văn Lang",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 4",
+        "date":  "2026-11-08",
+        "time":  "14:30"
+    },
+    {
+        "group":  "U",
+        "team1":  "THPT Vạn Xuân Long Biên",
+        "team2":  "THPT Bình Minh Hoài Đức",
+        "score1":  2,
+        "score2":  2,
+        "venue":  "Sân 5",
+        "date":  "2026-11-01",
+        "time":  "08:00"
+    },
+    {
+        "group":  "U",
+        "team1":  "THPT Hòa Bình Phú Diễn",
+        "team2":  "THPT Văn Lang",
+        "score1":  2,
+        "score2":  1,
+        "venue":  "Sân 1",
+        "date":  "2026-11-01",
+        "time":  "09:00"
+    },
+    {
+        "group":  "U",
+        "team1":  "THPT Hòa Bình Phú Diễn",
+        "team2":  "THPT Bình Minh Hoài Đức",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-11-08",
+        "time":  "14:30"
+    },
+    {
+        "group":  "U",
+        "team1":  "THPT Văn Lang",
+        "team2":  "THPT Bình Minh Hoài Đức",
+        "score1":  2,
+        "score2":  1,
+        "venue":  "Sân 3",
+        "date":  "2026-10-11",
+        "time":  "15:30"
+    },
+    {
+        "group":  "Ư",
+        "team1":  "THPT Lê Lợi Hà Đông",
+        "team2":  "THPT Đinh Tiên Hoàng",
+        "score1":  5,
+        "score2":  0,
+        "venue":  "Sân 3",
+        "date":  "2026-10-18",
+        "time":  "14:30"
+    },
+    {
+        "group":  "Ư",
+        "team1":  "THPT Lê Lợi Hà Đông",
+        "team2":  "THPT Marie Curie Long Biên",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 1",
+        "date":  "2026-11-08",
+        "time":  "15:30"
+    },
+    {
+        "group":  "Ư",
+        "team1":  "THPT Lê Lợi Hà Đông",
+        "team2":  "THPT Chuyên Sư phạm",
+        "score1":  3,
+        "score2":  1,
+        "venue":  "Sân 3",
+        "date":  "2026-11-01",
+        "time":  "09:00"
+    },
+    {
+        "group":  "Ư",
+        "team1":  "THPT Đinh Tiên Hoàng",
+        "team2":  "THPT Marie Curie Long Biên",
+        "score1":  0,
+        "score2":  8,
+        "venue":  "Sân 2",
+        "date":  "2026-11-01",
+        "time":  "09:00"
+    },
+    {
+        "group":  "Ư",
+        "team1":  "THPT Đinh Tiên Hoàng",
+        "team2":  "THPT Chuyên Sư phạm",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 2",
+        "date":  "2026-11-08",
+        "time":  "15:30"
+    },
+    {
+        "group":  "Ư",
+        "team1":  "THPT Marie Curie Long Biên",
+        "team2":  "THPT Chuyên Sư phạm",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 4",
+        "date":  "2026-10-18",
+        "time":  "15:30"
+    },
+    {
+        "group":  "V",
+        "team1":  "THPT Nguyễn Thị Minh Khai",
+        "team2":  "THPT Mỹ Đình",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 4",
+        "date":  "2026-10-11",
+        "time":  "15:30"
+    },
+    {
+        "group":  "V",
+        "team1":  "THPT Nguyễn Thị Minh Khai",
+        "team2":  "THPT Yên Hòa",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 3",
+        "date":  "2026-11-08",
+        "time":  "15:30"
+    },
+    {
+        "group":  "V",
+        "team1":  "THPT Nguyễn Thị Minh Khai",
+        "team2":  "THPT Đông Mỹ",
+        "score1":  0,
+        "score2":  1,
+        "venue":  "Sân 4",
+        "date":  "2026-11-01",
+        "time":  "09:00"
+    },
+    {
+        "group":  "V",
+        "team1":  "THPT Mỹ Đình",
+        "team2":  "THPT Yên Hòa",
+        "score1":  0,
+        "score2":  3,
+        "venue":  "Sân 5",
+        "date":  "2026-11-01",
+        "time":  "09:00"
+    },
+    {
+        "group":  "V",
+        "team1":  "THPT Mỹ Đình",
+        "team2":  "THPT Đông Mỹ",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 4",
+        "date":  "2026-11-08",
+        "time":  "15:30"
+    },
+    {
+        "group":  "V",
+        "team1":  "THPT Yên Hòa",
+        "team2":  "THPT Đông Mỹ",
+        "score1":  2,
+        "score2":  1,
+        "venue":  "Sân 5",
+        "date":  "2026-10-11",
+        "time":  "15:30"
+    },
+    {
+        "group":  "W",
+        "team1":  "THPT Chúc Động",
+        "team2":  "THPT Nguyễn Tất Thành Thanh Xuân",
+        "score1":  3,
+        "score2":  1,
+        "venue":  "Sân 3",
+        "date":  "2026-10-18",
+        "time":  "08:00"
+    },
+    {
+        "group":  "W",
+        "team1":  "THPT Chúc Động",
+        "team2":  "THPT FPT Tây Hà Nội",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 1",
+        "date":  "2026-11-15",
+        "time":  "08:00"
+    },
+    {
+        "group":  "W",
+        "team1":  "THPT Chúc Động",
+        "team2":  "THPT Vân Tảo",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 2",
+        "date":  "2026-11-01",
+        "time":  "13:30"
+    },
+    {
+        "group":  "W",
+        "team1":  "THPT Nguyễn Tất Thành Thanh Xuân",
+        "team2":  "THPT FPT Tây Hà Nội",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 3",
+        "date":  "2026-11-01",
+        "time":  "13:30"
+    },
+    {
+        "group":  "W",
+        "team1":  "THPT Nguyễn Tất Thành Thanh Xuân",
+        "team2":  "THPT Vân Tảo",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 2",
+        "date":  "2026-11-15",
+        "time":  "08:00"
+    },
+    {
+        "group":  "W",
+        "team1":  "THPT FPT Tây Hà Nội",
+        "team2":  "THPT Vân Tảo",
+        "score1":  0,
+        "score2":  1,
+        "venue":  "Sân 4",
+        "date":  "2026-10-18",
+        "time":  "08:00"
+    },
+    {
+        "group":  "X",
+        "team1":  "THPT Hoài Đức B",
+        "team2":  "THPT Hà Thành",
+        "score1":  3,
+        "score2":  0,
+        "venue":  "Sân 1",
+        "date":  "2026-10-18",
+        "time":  "10:00"
+    },
+    {
+        "group":  "X",
+        "team1":  "THPT Hoài Đức B",
+        "team2":  "THPT Chuyên Ngoại ngữ",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-11-08",
+        "time":  "15:30"
+    },
+    {
+        "group":  "X",
+        "team1":  "THPT Hoài Đức B",
+        "team2":  "THPT Đỗ Mười",
+        "score1":  3,
+        "score2":  0,
+        "venue":  "Sân 1",
+        "date":  "2026-11-01",
+        "time":  "10:00"
+    },
+    {
+        "group":  "X",
+        "team1":  "THPT Hà Thành",
+        "team2":  "THPT Chuyên Ngoại ngữ",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 1",
+        "date":  "2026-11-04",
+        "time":  "14:30"
+    },
+    {
+        "group":  "X",
+        "team1":  "THPT Hà Thành",
+        "team2":  "THPT Đỗ Mười",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 1",
+        "date":  "2026-11-11",
+        "time":  "13:30"
+    },
+    {
+        "group":  "X",
+        "team1":  "THPT Chuyên Ngoại ngữ",
+        "team2":  "THPT Đỗ Mười",
+        "score1":  3,
+        "score2":  5,
+        "venue":  "Sân 2",
+        "date":  "2026-10-21",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Y",
+        "team1":  "THPT Vinschool The Harmony",
+        "team2":  "THPT MAY",
+        "score1":  1,
+        "score2":  2,
+        "venue":  "Sân 1",
+        "date":  "2026-10-18",
+        "time":  "08:00"
+    },
+    {
+        "group":  "Y",
+        "team1":  "THPT Vinschool The Harmony",
+        "team2":  "THPT Nguyễn Văn Huyên",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 2",
+        "date":  "2026-11-11",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Y",
+        "team1":  "THPT Vinschool The Harmony",
+        "team2":  "THPT Hữu Nghị T78",
+        "score1":  0,
+        "score2":  5,
+        "venue":  "Sân 3",
+        "date":  "2026-11-01",
+        "time":  "10:00"
+    },
+    {
+        "group":  "Y",
+        "team1":  "THPT MAY",
+        "team2":  "THPT Nguyễn Văn Huyên",
+        "score1":  7,
+        "score2":  0,
+        "venue":  "Sân 4",
+        "date":  "2026-11-01",
+        "time":  "10:00"
+    },
+    {
+        "group":  "Y",
+        "team1":  "THPT MAY",
+        "team2":  "THPT Hữu Nghị T78",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 3",
+        "date":  "2026-11-11",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Y",
+        "team1":  "THPT Nguyễn Văn Huyên",
+        "team2":  "THPT Hữu Nghị T78",
+        "score1":  0,
+        "score2":  12,
+        "venue":  "Sân 2",
+        "date":  "2026-10-18",
+        "time":  "08:00"
+    },
+    {
+        "group":  "Z",
+        "team1":  "THPT Tây Hồ",
+        "team2":  "THPT Hà Nội Academy",
+        "score1":  2,
+        "score2":  0,
+        "venue":  "Sân 3",
+        "date":  "2026-10-21",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Z",
+        "team1":  "THPT Tây Hồ",
+        "team2":  "THPT Lạc Long Quân",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 4",
+        "date":  "2026-11-11",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Z",
+        "team1":  "THPT Tây Hồ",
+        "team2":  "THPT Minh Khai Kiều Phú",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 2",
+        "date":  "2026-11-04",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Z",
+        "team1":  "THPT Hà Nội Academy",
+        "team2":  "THPT Lạc Long Quân",
+        "score1":  2,
+        "score2":  5,
+        "venue":  "Sân 1",
+        "date":  "2026-11-01",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Z",
+        "team1":  "THPT Hà Nội Academy",
+        "team2":  "THPT Minh Khai Kiều Phú",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-11-11",
+        "time":  "13:30"
+    },
+    {
+        "group":  "Z",
+        "team1":  "THPT Lạc Long Quân",
+        "team2":  "THPT Minh Khai Kiều Phú",
+        "score1":  3,
+        "score2":  1,
+        "venue":  "Sân 4",
+        "date":  "2026-10-21",
+        "time":  "13:30"
+    },
+    {
+        "group":  "AA",
+        "team1":  "THPT Văn Hiến",
+        "team2":  "THPT Ngôi sao Hà Nội Hoàng Mai",
+        "score1":  0,
+        "score2":  1,
+        "venue":  "Sân 5",
+        "date":  "2026-10-18",
+        "time":  "08:00"
+    },
+    {
+        "group":  "AA",
+        "team1":  "THPT Văn Hiến",
+        "team2":  "THPT Chuyên KHXH\u0026NV",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 3",
+        "date":  "2026-11-15",
+        "time":  "08:00"
+    },
+    {
+        "group":  "AA",
+        "team1":  "THPT Văn Hiến",
+        "team2":  "THPT Quang Trung Hà Đông",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 4",
+        "date":  "2026-11-01",
+        "time":  "13:30"
+    },
+    {
+        "group":  "AA",
+        "team1":  "THPT Ngôi sao Hà Nội Hoàng Mai",
+        "team2":  "THPT Chuyên KHXH\u0026NV",
+        "score1":  5,
+        "score2":  0,
+        "venue":  "Sân 5",
+        "date":  "2026-11-01",
+        "time":  "10:00"
+    },
+    {
+        "group":  "AA",
+        "team1":  "THPT Ngôi sao Hà Nội Hoàng Mai",
+        "team2":  "THPT Quang Trung Hà Đông",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-11-04",
+        "time":  "13:30"
+    },
+    {
+        "group":  "AA",
+        "team1":  "THPT Chuyên KHXH\u0026NV",
+        "team2":  "THPT Quang Trung Hà Đông",
+        "score1":  1,
+        "score2":  3,
+        "venue":  "Sân 1",
+        "date":  "2026-10-18",
+        "time":  "09:00"
+    },
+    {
+        "group":  "BB",
+        "team1":  "THPT Phan Đình Phùng",
+        "team2":  "THPT Marie Curie Hà Đông",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 1",
+        "date":  "2026-10-11",
+        "time":  "08:00"
+    },
+    {
+        "group":  "BB",
+        "team1":  "THPT Phan Đình Phùng",
+        "team2":  "THPT Hà Nội Amsterdam",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 4",
+        "date":  "2026-10-25",
+        "time":  "15:30"
+    },
+    {
+        "group":  "BB",
+        "team1":  "THPT Phan Đình Phùng",
+        "team2":  "THPT Đống Đa",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 5",
+        "date":  "2026-11-11",
+        "time":  "14:30"
+    },
+    {
+        "group":  "BB",
+        "team1":  "THPT Phan Đình Phùng",
+        "team2":  "THPT Tân Lập",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 2",
+        "date":  "2026-11-15",
+        "time":  "09:00"
+    },
+    {
+        "group":  "BB",
+        "team1":  "THPT Marie Curie Hà Đông",
+        "team2":  "THPT Hà Nội Amsterdam",
+        "score1":  1,
+        "score2":  4,
+        "venue":  "Sân 2",
+        "date":  "2026-11-01",
+        "time":  "14:30"
+    },
+    {
+        "group":  "BB",
+        "team1":  "THPT Marie Curie Hà Đông",
+        "team2":  "THPT Đống Đa",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 1",
+        "date":  "2026-11-15",
+        "time":  "09:00"
+    },
+    {
+        "group":  "BB",
+        "team1":  "THPT Marie Curie Hà Đông",
+        "team2":  "THPT Tân Lập",
+        "score1":  2,
+        "score2":  2,
+        "venue":  "Sân 1",
+        "date":  "2026-10-21",
+        "time":  "14:30"
+    },
+    {
+        "group":  "BB",
+        "team1":  "THPT Hà Nội Amsterdam",
+        "team2":  "THPT Đống Đa",
+        "score1":  5,
+        "score2":  0,
+        "venue":  "Sân 2",
+        "date":  "2026-10-11",
+        "time":  "08:00"
+    },
+    {
+        "group":  "BB",
+        "team1":  "THPT Hà Nội Amsterdam",
+        "team2":  "THPT Tân Lập",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 1",
+        "date":  "2026-11-11",
+        "time":  "14:30"
+    },
+    {
+        "group":  "BB",
+        "team1":  "THPT Đống Đa",
+        "team2":  "THPT Tân Lập",
+        "score1":  0,
+        "score2":  1,
+        "venue":  "Sân 1",
+        "date":  "2026-11-01",
+        "time":  "14:30"
+    },
+    {
+        "group":  "CC",
+        "team1":  "THPT Nguyễn Siêu",
+        "team2":  "THPT Green City Academy",
+        "score1":  0,
+        "score2":  4,
+        "venue":  "Sân 3",
+        "date":  "2026-10-11",
+        "time":  "08:00"
+    },
+    {
+        "group":  "CC",
+        "team1":  "THPT Nguyễn Siêu",
+        "team2":  "THPT Quang Trung Đống Đa",
+        "score1":  2,
+        "score2":  2,
+        "venue":  "Sân 5",
+        "date":  "2026-10-25",
+        "time":  "15:30"
+    },
+    {
+        "group":  "CC",
+        "team1":  "THPT Nguyễn Siêu",
+        "team2":  "THPT Khương Đình",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 2",
+        "date":  "2026-11-11",
+        "time":  "14:30"
+    },
+    {
+        "group":  "CC",
+        "team1":  "THPT Nguyễn Siêu",
+        "team2":  "THPT Chu Văn An",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 4",
+        "date":  "2026-11-15",
+        "time":  "09:00"
+    },
+    {
+        "group":  "CC",
+        "team1":  "THPT Green City Academy",
+        "team2":  "THPT Quang Trung Đống Đa",
+        "score1":  1,
+        "score2":  1,
+        "venue":  "Sân 4",
+        "date":  "2026-11-01",
+        "time":  "14:30"
+    },
+    {
+        "group":  "CC",
+        "team1":  "THPT Green City Academy",
+        "team2":  "THPT Khương Đình",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 3",
+        "date":  "2026-11-15",
+        "time":  "09:00"
+    },
+    {
+        "group":  "CC",
+        "team1":  "THPT Green City Academy",
+        "team2":  "THPT Chu Văn An",
+        "score1":  2,
+        "score2":  0,
+        "venue":  "Sân 4",
+        "date":  "2026-10-21",
+        "time":  "14:30"
+    },
+    {
+        "group":  "CC",
+        "team1":  "THPT Quang Trung Đống Đa",
+        "team2":  "THPT Khương Đình",
+        "score1":  1,
+        "score2":  0,
+        "venue":  "Sân 4",
+        "date":  "2026-10-11",
+        "time":  "08:00"
+    },
+    {
+        "group":  "CC",
+        "team1":  "THPT Quang Trung Đống Đa",
+        "team2":  "THPT Chu Văn An",
+        "score1":  null,
+        "score2":  null,
+        "venue":  "Sân 3",
+        "date":  "2026-11-11",
+        "time":  "14:30"
+    },
+    {
+        "group":  "CC",
+        "team1":  "THPT Khương Đình",
+        "team2":  "THPT Chu Văn An",
+        "score1":  0,
+        "score2":  2,
+        "venue":  "Sân 3",
+        "date":  "2026-11-01",
+        "time":  "14:30"
+    }
+]

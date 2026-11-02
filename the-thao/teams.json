@@ -1,0 +1,292 @@
+[
+    {
+        "name":  "A",
+        "teams":  [
+                      "THPT Vinschool Times City",
+                      "THPT Đại Mỗ",
+                      "THPT Nguyễn Trãi Thường Tín",
+                      "THPT Quốc Oai"
+                  ]
+    },
+    {
+        "name":  "B",
+        "teams":  [
+                      "THPT Lê Văn Thiêm",
+                      "THPT Xuân Phương",
+                      "THPT Einstein",
+                      "THPT Nguyễn Trãi Ba Đình"
+                  ]
+    },
+    {
+        "name":  "C",
+        "teams":  [
+                      "THPT Hoài Đức C",
+                      "THPT Khương Hạ",
+                      "THPT Việt Nam Ba Lan",
+                      "THPT Xuân Đỉnh"
+                  ]
+    },
+    {
+        "name":  "D",
+        "teams":  [
+                      "THPT Tự Lập",
+                      "THPT Hoàng Mai",
+                      "THPT Lê Quý Đôn Mỹ Đình",
+                      "THPT Đông Kinh"
+                  ]
+    },
+    {
+        "name":  "Đ",
+        "teams":  [
+                      "THPT Phạm Văn Đồng",
+                      "THPT Wellspring",
+                      "THPT Huỳnh Thúc Kháng",
+                      "THPT Trần Phú Hoàn Kiếm"
+                  ]
+    },
+    {
+        "name":  "E",
+        "teams":  [
+                      "THPT Nguyễn Văn Cừ",
+                      "THPT Việt Úc Hà Nội",
+                      "THPT Ngô Gia Tự Hà Đông",
+                      "THPT Lê Quý Đôn Hà Đông"
+                  ]
+    },
+    {
+        "name":  "F",
+        "teams":  [
+                      "THPT Nguyễn Quốc Trinh",
+                      "THPT Cầu Giấy",
+                      "THPT Việt Đức",
+                      "THPT Nhân Chính"
+                  ]
+    },
+    {
+        "name":  "G",
+        "teams":  [
+                      "THPT Phú Xuyên A",
+                      "THPT Trí Đức",
+                      "THPT Đồng Quan",
+                      "THPT Lê Quý Đôn Đống Đa"
+                  ]
+    },
+    {
+        "name":  "H",
+        "teams":  [
+                      "THPT Marie Curie Mỹ Đình",
+                      "THPT Lương Thế Vinh",
+                      "THPT Trần Quốc Tuấn",
+                      "THPT Thượng Cát"
+                  ]
+    },
+    {
+        "name":  "I",
+        "teams":  [
+                      "THPT Phúc Thọ",
+                      "THPT Lý Thường Kiệt Việt Hưng",
+                      "THPT Phan Huy Chú Thạch Thất",
+                      "THPT Nguyễn Du Thanh Oai"
+                  ]
+    },
+    {
+        "name":  "J",
+        "teams":  [
+                      "THPT FPT",
+                      "THPT Hoàng Cầu",
+                      "THPT Chuyên Nguyễn Huệ",
+                      "THPT Everest"
+                  ]
+    },
+    {
+        "name":  "K",
+        "teams":  [
+                      "THPT Nguyễn Tất Thành Cầu Giấy",
+                      "THPT Thạch Bàn",
+                      "THPT Alfred Nobel",
+                      "THPT Trần Hưng Đạo Thanh Xuân"
+                  ]
+    },
+    {
+        "name":  "L",
+        "teams":  [
+                      "THPT Lý Thái Tổ",
+                      "THPT Nguyễn Huệ Nghĩa Đô",
+                      "THPT Hoàng Long",
+                      "THPT Galileo"
+                  ]
+    },
+    {
+        "name":  "M",
+        "teams":  [
+                      "THPT Phùng Khắc Khoan Kim Liên",
+                      "THPT Ngọc Hồi",
+                      "THPT Nguyễn Bỉnh Khiêm",
+                      "THPT Hồ Tùng Mậu"
+                  ]
+    },
+    {
+        "name":  "N",
+        "teams":  [
+                      "THPT Archimedes Đông Anh",
+                      "THPT Kim Liên",
+                      "THPT Dewey Ocean Park",
+                      "THPT KHGD"
+                  ]
+    },
+    {
+        "name":  "O",
+        "teams":  [
+                      "THPT Vinschool Ocean Park",
+                      "THPT Ngô Quyền Đông Anh",
+                      "THPT Bắc Lương Sơn",
+                      "THPT Đoàn Kết Hai Bà Trưng"
+                  ]
+    },
+    {
+        "name":  "Ô",
+        "teams":  [
+                      "THPT Hoàng Văn Thụ",
+                      "THPT Việt Hoàng",
+                      "THPT Chuyên KHTN",
+                      "THPT Dương Xá"
+                  ]
+    },
+    {
+        "name":  "P",
+        "teams":  [
+                      "THPT Phùng Khắc Khoan Thạch Thất",
+                      "THPT Dewey Tây Hồ Tây",
+                      "THPT IVS Thanh Oai",
+                      "THPT Phan Huy Chú Quốc Oai"
+                  ]
+    },
+    {
+        "name":  "Q",
+        "teams":  [
+                      "THPT Nguyễn Gia Thiều",
+                      "THPT Phúc Lợi",
+                      "THPT Thọ Xuân",
+                      "THPT Đan Phượng"
+                  ]
+    },
+    {
+        "name":  "R",
+        "teams":  [
+                      "THPT Xa La",
+                      "THPT Lương Văn Can",
+                      "THPT Lomonoxop",
+                      "THPT Olympia"
+                  ]
+    },
+    {
+        "name":  "S",
+        "teams":  [
+                      "THPT Phan Bội Châu Hà Đông",
+                      "THPT Phan Huy Chú Đống Đa",
+                      "THPT Thanh Oai B",
+                      "THPT Trần Nhân Tông"
+                  ]
+    },
+    {
+        "name":  "T",
+        "teams":  [
+                      "THPT Thực Nghiệm",
+                      "THPT Tạ Quang Bửu",
+                      "THPT Phenikaa",
+                      "THPT Đa Trí Tuệ"
+                  ]
+    },
+    {
+        "name":  "U",
+        "teams":  [
+                      "THPT Vạn Xuân Long Biên",
+                      "THPT Hòa Bình Phú Diễn",
+                      "THPT Văn Lang",
+                      "THPT Bình Minh Hoài Đức"
+                  ]
+    },
+    {
+        "name":  "Ư",
+        "teams":  [
+                      "THPT Lê Lợi Hà Đông",
+                      "THPT Đinh Tiên Hoàng",
+                      "THPT Marie Curie Long Biên",
+                      "THPT Chuyên Sư phạm"
+                  ]
+    },
+    {
+        "name":  "V",
+        "teams":  [
+                      "THPT Nguyễn Thị Minh Khai",
+                      "THPT Mỹ Đình",
+                      "THPT Yên Hòa",
+                      "THPT Đông Mỹ"
+                  ]
+    },
+    {
+        "name":  "W",
+        "teams":  [
+                      "THPT Chúc Động",
+                      "THPT Nguyễn Tất Thành Thanh Xuân",
+                      "THPT FPT Tây Hà Nội",
+                      "THPT Vân Tảo"
+                  ]
+    },
+    {
+        "name":  "X",
+        "teams":  [
+                      "THPT Hoài Đức B",
+                      "THPT Hà Thành",
+                      "THPT Chuyên Ngoại ngữ",
+                      "THPT Đỗ Mười"
+                  ]
+    },
+    {
+        "name":  "Y",
+        "teams":  [
+                      "THPT Vinschool The Harmony",
+                      "THPT MAY",
+                      "THPT Nguyễn Văn Huyên",
+                      "THPT Hữu Nghị T78"
+                  ]
+    },
+    {
+        "name":  "Z",
+        "teams":  [
+                      "THPT Tây Hồ",
+                      "THPT Hà Nội Academy",
+                      "THPT Lạc Long Quân",
+                      "THPT Minh Khai Kiều Phú"
+                  ]
+    },
+    {
+        "name":  "AA",
+        "teams":  [
+                      "THPT Văn Hiến",
+                      "THPT Ngôi sao Hà Nội Hoàng Mai",
+                      "THPT Chuyên KHXH\u0026NV",
+                      "THPT Quang Trung Hà Đông"
+                  ]
+    },
+    {
+        "name":  "BB",
+        "teams":  [
+                      "THPT Phan Đình Phùng",
+                      "THPT Marie Curie Hà Đông",
+                      "THPT Hà Nội Amsterdam",
+                      "THPT Đống Đa",
+                      "THPT Tân Lập"
+                  ]
+    },
+    {
+        "name":  "CC",
+        "teams":  [
+                      "THPT Nguyễn Siêu",
+                      "THPT Green City Academy",
+                      "THPT Quang Trung Đống Đa",
+                      "THPT Khương Đình",
+                      "THPT Chu Văn An"
+                  ]
+    }
+]

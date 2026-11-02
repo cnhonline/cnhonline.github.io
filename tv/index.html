@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Xem chương trình phát trực tiếp trên CNH Online.">
+    <title>Phát trực tiếp - CNH Online</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="../assets/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/blog.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.css" rel="stylesheet">
+
+    <!--Google Analytics-->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QCJ0RMJB4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QCJ0RMJB4');
+    </script>
+
+    <style>
+      body {
+        color: #212529;
+        background-color: #fff;
+      }
+
+      .stream-main {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+      }
+
+      .stream-heading {
+        margin-bottom: 1.5rem;
+      }
+
+      .stream-label {
+        color: #dc3545;
+        font-size: .8rem;
+        font-weight: 700;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      .stream-title {
+        margin: .35rem 0 .5rem;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      .stream-description {
+        margin-bottom: 0;
+        color: #6c757d;
+      }
+
+      .stream-frame {
+        overflow: hidden;
+        border-radius: 4px;
+        background: #111;
+        box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .12);
+      }
+
+      .stream-frame .plyr {
+        --plyr-color-main: #c82333;
+      }
+
+      .stream-placeholder {
+        display: flex;
+        min-height: 220px;
+        aspect-ratio: 16 / 9;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+        color: #fff;
+        text-align: center;
+        background: radial-gradient(ellipse at center, #343a40 0, #111 72%);
+      }
+
+      .stream-placeholder[hidden],
+      #player[hidden],
+      .stream-error[hidden] {
+        display: none;
+      }
+
+      .stream-placeholder-icon {
+        display: grid;
+        width: 3.5rem;
+        height: 3.5rem;
+        margin-bottom: 1rem;
+        place-items: center;
+        border: 1px solid rgba(255, 255, 255, .55);
+        border-radius: 50%;
+        color: #fff;
+      }
+
+      .stream-placeholder-icon svg {
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-left: .2rem;
+        fill: currentColor;
+      }
+
+      .stream-placeholder p {
+        max-width: 32rem;
+        margin-bottom: 0;
+        color: rgba(255, 255, 255, .75);
+      }
+
+      .stream-details {
+        padding: 1.25rem 1.5rem;
+        border: 1px solid #e5e5e5;
+        border-top: 0;
+        border-radius: 0 0 4px 4px;
+      }
+
+      .stream-details h2 {
+        margin-bottom: .35rem;
+        font-size: 1.15rem;
+      }
+
+      .stream-details p {
+        margin-bottom: 0;
+        color: #6c757d;
+      }
+
+      .stream-error {
+        margin: 1rem 0 0;
+      }
+
+      @media (max-width: 575.98px) {
+        .stream-main {
+          padding-top: 1.5rem;
+        }
+
+        .stream-title {
+          font-size: 1.65rem;
+        }
+
+        .stream-details {
+          padding: 1rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="blog-header py-3">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 text-center">
+            <a class="blog-header-logo text-dark" href="../index.html">CNH Online</a>
+          </div>
+        </div>
+      </header>
+
+      <main class="stream-main">
+        <div class="stream-heading">
+          <div class="stream-label">Trực tiếp</div>
+          <h1 class="stream-title">Trực tiếp giải bóng an ninh thủ đô - Hà Nội</h1>
+          <p class="stream-description">Ngày phát: </p>
+        </div>
+
+        <section aria-label="Trình phát trực tiếp">
+          <div class="stream-frame">
+            <div id="player" class="plyr__video-embed" hidden>
+              <iframe
+                title="Video phát trực tiếp trên YouTube"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+                referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+
+            <div id="stream-placeholder" class="stream-placeholder">
+              <span class="stream-placeholder-icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16"><path d="M5 3.5v9l7-4.5-7-4.5z"></path></svg>
+              </span>
+              <h2 class="h5">Xin lỗi bạn vì sự bất tiện này</h2>
+              <p>Hiện tại chúng tôi chưa có chương trình nào đang phát.
+              </p>
+            </div>
+          </div>
+          <div id="stream-error" class="alert alert-danger stream-error" role="alert" hidden></div>
+        </section>
+
+        <div class="stream-details">
+          <h2>Nguồn phát: CNH Online</h2>
+          <p>Nghiêm cấm chiếu lại và sử dụng hình thức để che 
+            giấu nhà phát sóng, bao gồm che logo và trích iframe.
+          </p>
+        </div>
+      </main>
+    </div>
+
+    <footer class="blog-footer">
+      <p>      
+        Trang web được tạo bởi CNH Online.
+        <br>
+        CNH Online KHÔNG phải là câu lạc bộ, và đồng thời cũng KHÔNG liên kết với bất 
+        cứ câu lạc bộ hay tập đoàn, công ty nào. <br>
+        <!-- Nguồn thông tin lấy từ <a href="https://anninhthudo.vn/">https://anninhthudo.vn</a> <br> -->
+        Liên hệ: 0766226679 - contact.nguyenanhkhoi@gmail.com</p>
+      <p>
+
+      <p><a href="../index.html">Quay về trang chủ CNH Online</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.min.js"></script>
+    <script>
+      // Dán liên kết YouTube của buổi phát trực tiếp vào đây.
+      const youtubeUrl = "";
+
+      function getYouTubeVideoId(value) {
+        let url;
+
+        try {
+          url = new URL(value);
+        } catch {
+          throw new Error("Liên kết YouTube không hợp lệ. Hãy kiểm tra lại URL.");
+        }
+
+        const host = url.hostname.replace(/^www\./, "");
+        let videoId = "";
+
+        if (host === "youtu.be") {
+          videoId = url.pathname.split("/").filter(Boolean)[0] || "";
+        } else if (host === "youtube.com" || host.endsWith(".youtube.com")) {
+          videoId = url.searchParams.get("v") || "";
+
+          if (!videoId) {
+            const pathParts = url.pathname.split("/").filter(Boolean);
+            if (["embed", "live", "shorts", "v"].includes(pathParts[0])) {
+              videoId = pathParts[1] || "";
+            }
+          }
+        }
+
+        if (!/^[\w-]{11}$/.test(videoId)) {
+          throw new Error("Không tìm thấy mã video YouTube hợp lệ trong liên kết.");
+        }
+
+        return videoId;
+      }
+
+      if (youtubeUrl.trim()) {
+        const errorMessage = document.getElementById("stream-error");
+
+        try {
+          const videoId = getYouTubeVideoId(youtubeUrl.trim());
+          const playerElement = document.getElementById("player");
+          const iframe = playerElement.querySelector("iframe");
+          const origin = encodeURIComponent(window.location.origin);
+
+          iframe.src = `https://www.youtube.com/embed/${videoId}?origin=${origin}&playsinline=1&enablejsapi=1`;
+          playerElement.hidden = false;
+          document.getElementById("stream-placeholder").hidden = true;
+          new Plyr(playerElement);
+        } catch (error) {
+          errorMessage.textContent = error.message;
+          errorMessage.hidden = false;
+        }
+      }
+    </script>
+  </body>
+</html>
