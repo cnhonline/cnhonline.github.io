@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Danh sách nhà đài phát trực tiếp các trận bóng đá CNH Online">
+    <title>Xem trực tiếp - CNH Online</title>
+
+    <link href="../assets/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/blog.css" rel="stylesheet">
+    <style>
+      body {
+        background: #f5f7f8;
+      }
+
+      .tv-header {
+        border-bottom: 1px solid #e5e5e5;
+      }
+
+      .tv-content {
+        max-width: 760px;
+        margin: 2rem auto;
+      }
+
+      .tv-match {
+        margin-bottom: 1rem;
+        padding: 1.25rem;
+        border: 1px solid #e5e5e5;
+        border-radius: .3rem;
+        background: #fff;
+        box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+      }
+
+      .tv-match h2 {
+        color: #173c32;
+        font-size: 1.25rem;
+      }
+
+      .tv-stations {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .5rem;
+      }
+
+      .tv-footer {
+        margin-top: 2rem;
+        padding: 1.5rem 0;
+        color: #6c757d;
+        text-align: center;
+        border-top: 1px solid #e5e5e5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="tv-header py-3 text-center">
+        <a class="blog-header-logo text-dark" href="../index.html">CNH Online</a>
+      </header>
+
+      <main class="tv-content">
+        <h1 class="h2 mb-3">Xem trực tiếp</h1>
+        <p><a href="./index.html">&larr; Quay lại lịch thi đấu</a></p>
+        <div id="broadcast-list"></div>
+        <p id="broadcast-error" class="alert alert-danger" role="alert" hidden></p>
+      </main>
+
+      <footer class="tv-footer">
+        Trang web được tạo bởi CNH Online.
+      </footer>
+    </div>
+
+    <script>
+      (async function () {
+        const broadcastList = document.getElementById('broadcast-list');
+        const errorMessage = document.getElementById('broadcast-error');
+        const selectedMatchKey = new URLSearchParams(window.location.search).get('match');
+
+        function getMatchKey(match) {
+          return JSON.stringify([match.group].concat([match.team1, match.team2].sort()));
+        }
+
+        function appendBroadcasters(container, broadcasters) {
+          const stationList = document.createElement('div');
+          stationList.className = 'tv-stations';
+          broadcasters.forEach(function (broadcaster) {
+            const url = new URL(broadcaster.url, window.location.href);
+            if (url.protocol !== 'http:' && url.protocol !== 'https:') {
+              throw new Error('Đường dẫn nhà đài không hợp lệ.');
+            }
+            const link = document.createElement('a');
+            link.className = 'btn btn-outline-success';
+            link.href = url.href;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.textContent = broadcaster.name;
+            stationList.appendChild(link);
+          });
+          container.appendChild(stationList);
+        }
+
+        function appendMatch(match) {
+          const card = document.createElement('section');
+          card.className = 'tv-match';
+
+          const title = document.createElement('h2');
+          title.textContent = match.team1 + ' - ' + match.team2;
+          card.appendChild(title);
+
+          const date = document.createElement('p');
+          date.className = 'mb-3 text-muted';
+          date.textContent = 'Bảng ' + match.group + ' · ' +
+            match.date.slice(8, 10) + '/' + match.date.slice(5, 7) + '/' +
+            match.date.slice(0, 4) + ' ' + match.time;
+          card.appendChild(date);
+
+          if (match.broadcasters.length === 0) {
+            const emptyMessage = document.createElement('p');
+            emptyMessage.className = 'mb-0';
+            emptyMessage.textContent = 'Trận đấu này chưa có nhà đài phát trực tiếp.';
+            card.appendChild(emptyMessage);
+          } else {
+            appendBroadcasters(card, match.broadcasters);
+          }
+          broadcastList.appendChild(card);
+        }
+
+        try {
+          const response = await fetch('./matches.json');
+          if (!response.ok) {
+            throw new Error('Không thể tải matches.json.');
+          }
+          const matches = await response.json();
+          if (!Array.isArray(matches) || !matches.every(function (match) {
+            return match && Array.isArray(match.broadcasters) &&
+              match.broadcasters.every(function (broadcaster) {
+                return broadcaster && typeof broadcaster.name === 'string' &&
+                  broadcaster.name.trim() !== '' && typeof broadcaster.url === 'string' &&
+                  broadcaster.url.trim() !== '';
+              });
+          })) {
+            throw new Error('Danh sách nhà đài không hợp lệ.');
+          }
+
+          let visibleMatches;
+          if (selectedMatchKey) {
+            let parsedMatchKey;
+            try {
+              parsedMatchKey = JSON.parse(selectedMatchKey);
+            } catch (error) {
+              throw new Error('Đường dẫn trận đấu không hợp lệ.');
+            }
+            if (!Array.isArray(parsedMatchKey) || parsedMatchKey.length !== 3 ||
+                parsedMatchKey.some(function (part) { return typeof part !== 'string'; })) {
+              throw new Error('Đường dẫn trận đấu không hợp lệ.');
+            }
+            const match = matches.find(function (item) {
+              return getMatchKey(item) === selectedMatchKey;
+            });
+            if (!match) {
+              throw new Error('Không tìm thấy trận đấu.');
+            }
+            visibleMatches = [match];
+          } else {
+            visibleMatches = matches.filter(function (match) {
+              return match.broadcasters.length > 0;
+            }).sort(function (a, b) {
+              return a.date.localeCompare(b.date) || a.time.localeCompare(b.time);
+            });
+          }
+
+          if (visibleMatches.length === 0) {
+            const emptyMessage = document.createElement('p');
+            emptyMessage.className = 'alert alert-info';
+            emptyMessage.textContent = 'Chưa có trận đấu nào được cập nhật nhà đài phát trực tiếp.';
+            broadcastList.appendChild(emptyMessage);
+            return;
+          }
+          visibleMatches.forEach(appendMatch);
+        } catch (error) {
+          errorMessage.hidden = false;
+          errorMessage.textContent = 'Không thể tải danh sách nhà đài: ' + error.message;
+        }
+      }());
+    </script>
+  </body>
+</html>
+
+
+<!-- {"name": "CNH Online", "url": "../tv/"} -->

@@ -94,7 +94,7 @@
 
       .match-result {
         display: grid;
-        grid-template-columns: minmax(0, 1fr) 4rem minmax(0, 1fr) 5rem 7rem;
+        grid-template-columns: minmax(0, 1fr) 4rem minmax(0, 1fr) 5rem 7rem 8rem;
         gap: .75rem;
         align-items: center;
         padding: .85rem 0;
@@ -103,7 +103,7 @@
 
       .match-headings {
         display: grid;
-        grid-template-columns: minmax(0, 1fr) 4rem minmax(0, 1fr) 5rem 7rem;
+        grid-template-columns: minmax(0, 1fr) 4rem minmax(0, 1fr) 5rem 7rem 8rem;
         gap: .75rem;
         padding: .5rem 0;
         color: #6c757d;
@@ -127,6 +127,11 @@
         color: #6c757d;
         font-size: .875rem;
         text-align: center;
+      }
+
+      .match-live {
+        justify-self: center;
+        white-space: nowrap;
       }
 
       .match-label {
@@ -179,6 +184,11 @@
           text-align: left;
         }
 
+        .match-live {
+          grid-column: 1 / -1;
+          justify-self: end;
+        }
+
         .match-label {
           display: inline;
           color: #6c757d;
@@ -214,7 +224,7 @@
           <p class="mb-2 text-uppercase">Giải bóng đá an ninh thủ đô</p>
           <h1 class="mb-2">Kết quả vòng bảng</h1>
           <p class="mb-2">Nguồn: <a href="https://anninhthudo.vn/">https://anninhthudo.vn/</a>. Dữ liệu được nhập bằng AI, có khả năng sai sót</p>
-          <p class="mb-2">Xem trực tiếp tại <a href="../tv/index.html">CNH Online</a></p>
+          <p class="mb-2">Danh sách nhà đài <a href="./tv.html">phát trực tiếp</a></p>
           <p class="mb-0 small">Tr: trận đã đấu · Th: thắng · H: hòa · B: bại · BT/BB: bàn thắng/bàn bại · HS: hiệu số</p>
         </section>
 
@@ -275,7 +285,13 @@
                 (match.score1 !== null &&
                   (!Number.isInteger(match.score1) || match.score1 < 0 ||
                    !Number.isInteger(match.score2) || match.score2 < 0)) ||
-                typeof match.venue !== 'string') {
+                typeof match.venue !== 'string' ||
+                !Array.isArray(match.broadcasters) ||
+                !match.broadcasters.every(function (broadcaster) {
+                  return broadcaster && typeof broadcaster.name === 'string' &&
+                    broadcaster.name.trim() !== '' && typeof broadcaster.url === 'string' &&
+                    broadcaster.url.trim() !== '';
+                })) {
               throw new Error('Thông tin trận đấu không hợp lệ.');
             }
             const pairKey = JSON.stringify([match.group].concat([match.team1, match.team2].sort()));
@@ -405,7 +421,7 @@
 
             const matchHeadings = document.createElement('div');
             matchHeadings.className = 'match-headings';
-            ['Đội 1', 'Tỉ số', 'Đội 2', 'Địa điểm', 'Thời gian'].forEach(function (label) {
+            ['Đội 1', 'Tỉ số', 'Đội 2', 'Địa điểm', 'Thời gian', 'Nhà đài'].forEach(function (label) {
               const headingCell = document.createElement('span');
               headingCell.textContent = label;
               matchHeadings.appendChild(headingCell);
@@ -440,6 +456,16 @@
                 result.date.slice(5, 7) + '/' + result.date.slice(0, 4);
               time.append(timeLabel, document.createTextNode(displayDate + ' ' + result.time));
               match.append(teamOne, score, teamTwo, venue, time);
+              if (result.broadcasters.length > 0) {
+                const liveLink = document.createElement('a');
+                const matchKey = JSON.stringify(
+                  [result.group].concat([result.team1, result.team2].sort())
+                );
+                liveLink.className = 'btn btn-sm btn-outline-success match-live';
+                liveLink.href = './tv.html?match=' + encodeURIComponent(matchKey);
+                liveLink.textContent = 'Xem trực tiếp';
+                match.appendChild(liveLink);
+              }
               matchesDetails.appendChild(match);
             });
             section.appendChild(matchesDetails);
